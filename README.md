@@ -8,9 +8,9 @@ In RCTs and observational studies, assessment of the effectiveness of a treatmen
 RCI gives the change in standardized units and increase or decrease is determined by positive or negative signs in the output respectively. Whether it is considered statistically significant (reliable) is dependent on the limit of confidence intervals set (a limit of  95% or 90% confidence can be set). Z-score cut-off of 1.96 corresponds to 95% confidence limits. Any score exceeding these limits is considered statistically significant. It is not uncommon to set the confidence interval of 90% thus the cut-off is relaxed to 1.645 and scores above this are considered significant. 
 
 In addition of calculating reliable change, the bias resulting from improved performance due to repeated exposure known as "Practice Effect" can be corrected by slight amendments in the formula for calculating RCI. Practice effect calculated by taking a difference between baseline and retest control group mean and adding that to baseline scores of individual. So the RCI formula can be written as: 
-```r
-[retest score – (baseline score + practice effect)]/SEdiff
-```
+
+$[retest score – (baseline score + practice effect)]/SEdiff$
+
 ## Installation
 To install this package, run the following lines in RStudio:
 
